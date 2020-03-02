@@ -1,15 +1,16 @@
 ---
-title: "Contribution guidelines"
-linkTitle: "Contribution guidelines"
+title: Contribution guidelines
+linkTitle: Contribution guidelines
 no_list: true
 weight: 200
-description: >
+description: |
   How to contribute to Axway-Open-Docs
 ---
-
 This documentation is open source, and we welcome your interest in contributing to improve the quality of our docs.
 
 Please read this guide thoroughly before you start.
+
+test
 
 ## Before you start
 
@@ -28,7 +29,7 @@ We support the following contribution flows:
 
 For experienced users, we also support pull requests via Git CLI (ideal for bigger changes or regular updates). See [Set up and work locally](/docs/contribution_guidelines/setup_work_locally).
 
-{{< alert title="Note" >}}
+{{< alert title="Note" color="primary" >}}
 All flows require a GitHub account.
 {{< /alert >}}
 
@@ -36,28 +37,25 @@ Finally, if you cannot make a direct contribution, but want to report an issue w
 
 ### Option 1 - Edit on GitHub
 
-{{< alert title="Note" color="primary">}}If you have previously contributed to this project, your fork might be out of sync (behind) the `axway-open-docs` repository. It is best practice to [sync or delete an outdated fork](/docs/contribution_guidelines/deleting_a_repository/) before making a new contribution.{{< /alert >}}
+{{< alert title="Note" color="primary" >}}If you have previously contributed to this project, your fork might be out of sync (behind) the `axway-open-docs` repository. It is best practice to [sync or delete an outdated fork](/docs/contribution_guidelines/deleting_a_repository/) before making a new contribution.{{< /alert >}}
 
 1. Click **Edit on GitHub** on the upper right corner of the page.
 2. Click **Fork this repository** to create a copy (fork) of the `axway-open-docs` repository in your GitHub account. This allows you to propose changes to a repository that you don't have write access to.
 3. Make your changes to the page in the Markdown editor.
 
-    Click the **Preview changes** tab to check the formatting of your changes.
+   Click the **Preview changes** tab to check the formatting of your changes.
 
-    ![Preview before creating PR](/Images/contributing/netlify_preview_beforecreating_PR.png)
-
+   ![Preview before creating PR](/Images/contributing/netlify_preview_beforecreating_PR.png)
 4. At the bottom of the page, add a meaningful message describing your change and click **Propose file change**.
-5. In the Comparing changes page, check that `Axway/axway-open-docs` is shown on the left, and that your fork is shown on the right, and click **Create pull request**. A pull request enables us to review the changes you made on your fork and _pull_ them into the original repository.
+5. In the Comparing changes page, check that `Axway/axway-open-docs` is shown on the left, and that your fork is shown on the right, and click **Create pull request**. A pull request enables us to review the changes you made on your fork and *pull* them into the original repository.
 
-    ![Compare changes and create pull request](/Images/contributing/compare_changes_pr.png)
-
+   ![Compare changes and create pull request](/Images/contributing/compare_changes_pr.png)
 6. Enter a title (and optionally a description) for the pull request, and click **Create pull request** again. Leave **Allow edits from maintainers** selected, to enable us to make editorial updates to your PR if necessary.
-
 7. To preview your changes exactly as they will appear on the live website, click the deploy preview link:
 
-    ![Preview your PR](/Images/contributing/netlify_preview_PR.png)
+   ![Preview your PR](/Images/contributing/netlify_preview_PR.png)
 
-    This link opens the home page of the website in the same tab. You must navigate to the page you edited.
+   This link opens the home page of the website in the same tab. You must navigate to the page you edited.
 
 ### Option 2 - Edit on Netlify CMS
 
@@ -68,18 +66,15 @@ Use the Netlify CMS user interface to easily edit pages in a WYSIWYG editor with
 3. Click **Fork the repo** to fork the repository. This creates a copy (fork) of the Axway repository in your GitHub account. Netlify CMS makes changes to the files on your fork, and not to the original Axway repository.
 4. Make your changes in the editor on the left and click **Save**. You can check the formatting in the live preview on the right.
 
-    ![WYSIWYG editor](/Images/contributing/netlify_WYSIWYGeditor.png)
+   ![WYSIWYG editor](/Images/contributing/netlify_WYSIWYGeditor.png)
+5. When you are finished making changes, change the status of the content to **In review**. This creates a pull request, which enables us to review the changes you made on your fork using Netlify CMS and *pull* them into the original Axway repository.
 
-5. When you are finished making changes, change the status of the content to **In review**. This creates a pull request, which enables us to review the changes you made on your fork using Netlify CMS and _pull_ them into the original Axway repository.
+   ![Set status to Review](/Images/contributing/netlify_setstatustoreview.png)
 
-    ![Set status to Review](/Images/contributing/netlify_setstatustoreview.png)
-
-    You will receive an email automatically generated by Netlify CMS with a link for the pull request created on GitHub.
-
+   You will receive an email automatically generated by Netlify CMS with a link for the pull request created on GitHub.
 6. To preview your changes exactly as they will appear on the live website, select **Workflow** in the toolbar and open the page you edited from the **In Review** column. When available, a link to the deploy preview appears, near the publishing controls. Click **View Preview**:
 
-    ![Preview on CMS](/Images/contributing/cms_deploy_preview.png)
-
+   ![Preview on CMS](/Images/contributing/cms_deploy_preview.png)
 7. To ensure that we have all the information we need to review your changes, go to GitHub and add a comment to the pull request, as there is currently no ability in Netlify CMS to tell us what you changed and why.
 
 ## What to expect when you contribute
@@ -88,7 +83,7 @@ When you submit a PR, our team is notified and will respond as quickly as we can
 
 We'll contact you if we need further information regards to your PR.
 
-{{< alert title="Note" >}}
+{{< alert title="Note" color="primary" >}}
 GitHub will send you an email notification for every update in your PR or issue.
 {{< /alert >}}
 
