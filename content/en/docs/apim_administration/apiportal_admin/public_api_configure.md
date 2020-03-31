@@ -7,8 +7,7 @@ description: >-
   Expose APIs and applications publicly to users who are not logged in to your
   API Portal.
 ---
-
-Public API mode enables you to expose non-business critical APIs and their methods so that your API consumers can access them without creating a user account or logging in.
+Public API mode enables you to expose non-business critical APIs and their methods so that your API consumers can access them without creating a user account or logging in.s
 
 When Public API mode is enabled, users can browse any APIs and applications you have specifically exposed for public access in API Manager, without logging in to API Portal. Users can still sign in or sign up to API Portal to use all the features.
 
@@ -21,9 +20,9 @@ The user experience in public API mode is different than when signed in:
 * On the API Portal landing page, the Sign In button is replaced with an Explore button that goes to API Catalog.
 * The items in the main navigation menu have the following changes:
 
-    * API Catalog displays only the APIs and methods configured to be exposed in Public API mode, but is available normally.
-    * If not disabled, the Applications page is available as read-only. The Usage tab on the Applications page is always disabled.
-    * The Monitoring and Users pages are unavailable.
+  * API Catalog displays only the APIs and methods configured to be exposed in Public API mode, but is available normally.
+  * If not disabled, the Applications page is available as read-only. The Usage tab on the Applications page is always disabled.
+  * The Monitoring and Users pages are unavailable.
 * The user profile information is unavailable.
 
 Public API mode affects your APIs and applications. Joomla! articles, blogs, or forums are not included in Public API mode. You can manage how these are exposed by changing their **Access** settings in JAI.
@@ -43,7 +42,7 @@ For Public API mode access, create a separate organization and user in API Manag
 5. Disable password expiration. Go to **Settings > API Manager settings > General settings**, and disable **Enable password expiry.**
 6. Select the APIs to expose publicly. Go to **Frontend API**, select the APIs to expose (they must be in **Published** state), click **Managed selected > Grant access**, set **Grant API access** to **The following organizations**, and add and select your Public API mode organization.
 
-    {{< alert title="Tip" color="primary" >}}You can import two versions of a back-end API: one that contains only non-business critical information and is exposed in Public API mode, and a full version which is not exposed without a user login.{{< /alert >}}
+   {{< alert title="Tip" color="primary" >}}You can import two versions of a back-end API: one that contains only non-business critical information and is exposed in Public API mode, and a full version which is not exposed without a user login.{{< /alert >}}
 7. Select the applications to expose publicly. Go to **Clients > Applications**, ensure that the organization of the applications is set to your Public API mode organization and the application has access to the required APIs, then share the application with the Public API mode user you created. It is recommended to only provide rights to view the application.
 
 ## Enable Public API mode in API Portal
