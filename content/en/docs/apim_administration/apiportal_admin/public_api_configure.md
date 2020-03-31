@@ -5,7 +5,7 @@ weight: 13
 date: 2019-07-30T00:00:00.000Z
 description: >-
   Expose APIs and applications publicly to users who are not logged in to your
-  API Portal.
+  API Portal.s
 ---
 
 Public API mode enables you to expose non-business critical APIs and their methods so that your API consumers can access them without creating a user account or logging in.
